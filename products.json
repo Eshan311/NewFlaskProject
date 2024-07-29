@@ -1,0 +1,17 @@
+[
+  {
+    "productId": 4321,
+    "productName": "Iphone13",
+    "price": 45000
+  },
+  {
+    "productId": 4567,
+    "productName": "Iphone15",
+    "price": 75000
+  },
+  {
+    "productId": 1234,
+    "productName": "Iphone14",
+    "price": 55000.89
+  }
+]

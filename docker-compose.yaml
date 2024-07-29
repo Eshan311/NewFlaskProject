@@ -1,0 +1,14 @@
+
+services:
+  python-app:
+    platform: linux/amd64
+    image: eshan311/python-app-new:2.0
+    build:
+      context: .
+    ports:
+      - "8001:5001"
+    volumes:
+      - python_data:/var/lib/pythondata
+
+volumes:
+  python_data: {}
