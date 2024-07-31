@@ -1,14 +1,14 @@
 [
   {
     "productId": 4321,
-    "productName": "Iphone13ProMax",
-    "price": 90000
+    "productName": "Iphone15ProMax",
+    "price": 90000.5
 
   },
   {
     "productId": 4567,
-    "productName": "Iphone15ProMax",
-    "price": 130000
+    "productName": "Iphone13ProMax",
+    "price": 90000.5
   },
   {
     "productId": 1234,
