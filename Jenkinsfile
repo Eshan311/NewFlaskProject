@@ -39,5 +39,18 @@ agent any
                 }
             }
         }
+        stage('Docker Build') {
+            steps {
+                script{
+                if(isUnix()){
+                sh "docker build -t  eshan311/newflaskapp ."
+                }
+                else{
+                 bat "docker build -t  eshan311/newflaskapp ."
+                 }
+                 }
+
+            }
+        }
     }
 }
