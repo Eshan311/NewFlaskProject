@@ -43,10 +43,10 @@ agent any
             steps {
                 script{
                 if(isUnix()){
-                sh "docker build -t  eshan311/newflaskapp ."
+                sh "docker build -t eshan311/newflaskapp ."
                 }
                 else{
-                 bat "docker build -t  eshan311/newflaskapp ."
+                 bat "docker build -t eshan311/newflaskapp ."
                  }
                  }
 
