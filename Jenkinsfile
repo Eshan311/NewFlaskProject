@@ -28,16 +28,16 @@ agent any
         stage('Unit Test') {
             steps {
 
-// Run Maven on a Unix agent.
-script{
-if(isUnix()){
-sh "pytest"
-}
-else{
-bat "pytest"
-}
-}
-}
-
-}
+            // Run Maven on a Unix agent.
+                script{
+                    if(isUnix()){
+                        sh "pytest"
+                    }
+                    else{
+                        bat "pytest"
+                    }
+                }
+            }
+        }
+    }
 }
